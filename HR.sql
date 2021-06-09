@@ -1,3 +1,5 @@
+## sql
+
 create table emp(
     emp_no varchar2(30) primary key,
     emp_name varchar2(80) not null,
