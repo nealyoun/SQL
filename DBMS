@@ -1,10 +1,5 @@
 # SQL
 
-- Data: 가공되지 않은 단순한 fact
-    - 이름, 나이, 강수량, 온도, 시간, 풍향
-- Information: Data를 체계적으로 처리, 가공해 의미 있는 실체로 만든 결과
-    - 일기 예보
-
 Database: 데이터를 체계적으로 모아 놓은 논리적인 집합
 
 DBMS(Database Management System): Database를 관리하는 시스템
