@@ -1,10 +1,10 @@
 # SQL
 
-Database: 데이터를 체계적으로 모아 놓은 논리적인 집합
+    Database: 데이터를 체계적으로 모아 놓은 논리적인 집합
 
-DBMS(Database Management System): Database를 관리하는 시스템
+    DBMS(Database Management System): Database를 관리하는 시스템
 
-RDBMS(Relational Database Management System)
+    RDBMS(Relational Database Management System)
 
 - 중복 데이터를 제거한 데이터의 효율적 저장 방식
 - 데이터 중복 최소화
