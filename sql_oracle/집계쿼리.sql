@@ -7,7 +7,7 @@
 -- where 와 order by 절 사이에 위치
 
 -- 집계함수: count(), max(), min(), 등
---  집계함수가 반환한 값은 where 절에 사용할 수 없다 => having 절 
+-- 집계함수가 반환한 값은 where 절에 사용할 수 없다 => having 절 
 -- 일반적인 조건 -> where 절, having 절 -> 집계 쿼리에 대한 추가 조건절
 
 select job_id
