@@ -13,6 +13,7 @@ where rownum <= 5
 order by ... desc;
 하지만 해당 where 절에 rownum으로 명시하면
 상위 5개가 아닌 rownum으로 추출된 5개를 decesnding 하는 것
+따라서 미리 sort를 해주고 rownum으로 상위 5개의 값 추출
 
 
 
