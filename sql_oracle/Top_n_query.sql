@@ -18,7 +18,7 @@ order by ... desc;
 
 
 
-oracle 12c 이후 버전
+oracle 12c 이후 버전 (11g version 까지는 사용불가)
 select ...
 from....
 Order by ..... desc
