@@ -1,6 +1,6 @@
 # MySQL: median (Oracle)
 
-![Untitled](MySQL%20medi%202df4d/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/54128055/159484431-3517aa0c-7bb5-4cdf-9d87-9992c4c558bc.png)
 
 ### Oracle: Median
 
