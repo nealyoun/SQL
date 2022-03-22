@@ -19,7 +19,7 @@ Oracle 을 이용한다면 built-in function으로 median 함수를 제공하기
 SELECT LAT_N
 FROM (SELECT LAT_N
 	   , PERCENT_RANK() OVER(ORDER BY LAT_N) AS PERCENTILE
-      FROM STATION) 
+      FROM STATION) as TEMP
 WHERE PERCENTILE = 0.5;
 ```
 
