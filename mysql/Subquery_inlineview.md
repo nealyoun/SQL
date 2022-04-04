@@ -21,7 +21,7 @@ WHERE e.department_id = dept.department_id
 ORDER BY 1;
 ```
 
-![Screen Shot 2022-04-01 at 10.01.36 AM.png](Subquery_(%2049eb9/Screen_Shot_2022-04-01_at_10.01.36_AM.png)
+![Screen_Shot_2022-04-01_at_10 01 36_AM](https://user-images.githubusercontent.com/54128055/161455087-2f0706e7-346c-40df-b1d6-3b5a14dddb8e.png)
 
 ```sql
 -- LATERAL 사용시 서브쿼리 내에서 메인쿼리(혹은 쿼리내 다른 서브쿼리)와 조인 가능
