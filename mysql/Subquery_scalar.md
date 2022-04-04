@@ -20,7 +20,7 @@ FROM employees as e
 ORDER BY 1;
 ```
 
-![Screen Shot 2022-04-01 at 9.04.26 AM.png](Subquery_(%209a153/Screen_Shot_2022-04-01_at_9.04.26_AM.png)
+![Screen_Shot_2022-04-01_at_9 04 26_AM](https://user-images.githubusercontent.com/54128055/161455047-aa748cfa-3789-4ac3-9785-31f71f4a9184.png)
 
 ```sql
 -- 메인쿼리와 조인을 하지 않은 경우 예시
@@ -48,7 +48,7 @@ FROM employees as e
 ORDER BY 1;
 ```
 
-![Screen Shot 2022-04-01 at 9.35.41 AM.png](Subquery_(%209a153/Screen_Shot_2022-04-01_at_9.35.41_AM.png)
+![Screen_Shot_2022-04-01_at_9 35 41_AM](https://user-images.githubusercontent.com/54128055/161455048-ac2af2dd-9240-41f0-8cc7-6e73930b7ba6.png)
 
 ```sql
 -- 건수는 1건을 가져오지만, 두 개의 컬럼 값을 가져오므로 오류
