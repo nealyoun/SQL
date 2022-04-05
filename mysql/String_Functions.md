@@ -10,7 +10,7 @@ SELECT LENGTH('MySQL')
 		 , LENGTH('마이에스큐엘');
 ```
 
-![Screen Shot 2022-04-04 at 9.47.56 AM.png](String_Fun%208b055/Screen_Shot_2022-04-04_at_9.47.56_AM.png)
+![Screen_Shot_2022-04-04_at_9 47 56_AM](https://user-images.githubusercontent.com/54128055/161659544-ba9b3cf0-0a67-4c76-975a-c2258907b90d.png)
 
 - BIT_LENGTH(문자열)
     - 문자열의 bit 크기를 반환
@@ -22,7 +22,7 @@ SELECT BIT_LENGTH('MySQL')
 		 , BIT_LENGTH('마이에스큐엘');
 ```
 
-![Screen Shot 2022-04-04 at 9.48.34 AM.png](String_Fun%208b055/Screen_Shot_2022-04-04_at_9.48.34_AM.png)
+![Screen_Shot_2022-04-04_at_9 48 34_AM](https://user-images.githubusercontent.com/54128055/161659551-081cf29b-650d-41f2-a0d4-2c193a257d3e.png)
 
 - CHAR_LENGTH(문자열)
     - 문자열의 개수를 반환
@@ -32,7 +32,7 @@ SELECT CHAR_LENGTH('MySQL')
 		 , CHAR_LENGTH('마이에스큐엘');
 ```
 
-![Screen Shot 2022-04-04 at 9.47.02 AM.png](String_Fun%208b055/Screen_Shot_2022-04-04_at_9.47.02_AM.png)
+![Screen_Shot_2022-04-04_at_9 47 02_AM](https://user-images.githubusercontent.com/54128055/161659542-d3c2a1c3-5237-4b3c-b4f1-50bf809be974.png)
 
 - CONCAT(문자열1, 문자열2, ...)
 
@@ -40,7 +40,7 @@ SELECT CHAR_LENGTH('MySQL')
 SELECT CONCAT('A', 'B', 'C');
 ```
 
-![Screen Shot 2022-04-04 at 9.58.50 AM.png](String_Fun%208b055/Screen_Shot_2022-04-04_at_9.58.50_AM.png)
+![Screen_Shot_2022-04-04_at_9 58 50_AM](https://user-images.githubusercontent.com/54128055/161659561-a3cded4d-f582-47eb-91df-61893f15bcee.png)
 
 - CONCAT_WS(구분자, 문자열1, 문자열2, ...)
     - 구분자로 구분하며 문자열 병합
@@ -49,7 +49,7 @@ SELECT CONCAT('A', 'B', 'C');
 SELECT CONCAT_WS('/', 'A', 'B', 'C');
 ```
 
-![Screen Shot 2022-04-04 at 9.58.38 AM.png](String_Fun%208b055/Screen_Shot_2022-04-04_at_9.58.38_AM.png)
+![Screen_Shot_2022-04-04_at_9 58 38_AM](https://user-images.githubusercontent.com/54128055/161659557-c78fc841-d49f-453b-9f6b-0f10c20c53f1.png)
 
 - ELT(n, 문자열1, 문자열2, ...)
     - 여러 문자열 중 n 번째에 해당하는 문자열 반환
@@ -58,7 +58,7 @@ SELECT CONCAT_WS('/', 'A', 'B', 'C');
 SELECT ELT(2, 'AB', 'ABCD', 'ABC');
 ```
 
-![Screen Shot 2022-04-04 at 10.03.55 AM.png](String_Fun%208b055/Screen_Shot_2022-04-04_at_10.03.55_AM.png)
+![Screen_Shot_2022-04-04_at_10 03 55_AM](https://user-images.githubusercontent.com/54128055/161659564-a9710bbf-7deb-473e-a347-7692734c0bc1.png)
 
 - FIELD(찾고자 하는 문자열, 문자열1, 문자열2, ...)
     - 여러 문자열 중 찾고자 하는 문자열이 있다면 몇 번째인지 위치를 반환, 없는 경우 0을 반환
@@ -67,7 +67,7 @@ SELECT ELT(2, 'AB', 'ABCD', 'ABC');
 SELECT FIELD('B', 'A', 'B', 'AB', 'C');
 ```
 
-![Screen Shot 2022-04-04 at 10.05.24 AM.png](String_Fun%208b055/Screen_Shot_2022-04-04_at_10.05.24_AM.png)
+![Screen_Shot_2022-04-04_at_10 05 24_AM](https://user-images.githubusercontent.com/54128055/161659570-0ce627f2-b4b6-40c2-8875-308004e0562d.png)
 
 - FIND_IN_SET(찾고자 하는 문자열, 콤마로 구분된 문자열)
     - 콤마로 구분된 문자열 내에서 찾고자 하는 문자열이 있다면 몇 번째인지 위치를 반환, 없는 경우 0을 반환
@@ -76,7 +76,7 @@ SELECT FIELD('B', 'A', 'B', 'AB', 'C');
 SELECT FIND_IN_SET('C', 'A,B,C,AB,AC');
 ```
 
-![Screen Shot 2022-04-04 at 10.08.30 AM.png](String_Fun%208b055/Screen_Shot_2022-04-04_at_10.08.30_AM.png)
+![Screen_Shot_2022-04-04_at_10 08 30_AM](https://user-images.githubusercontent.com/54128055/161659576-d64ab27e-82b7-47cf-8136-f0d989b1b334.png)
 
 - INSTR(기준 문자열, 부분 문자열)
     - 기준 문자열 내에서 부분 문자열의 시작 위치를 반환, 부분 문자열이 기준 문자열 내에 없으면 0을 반환
@@ -85,7 +85,7 @@ SELECT FIND_IN_SET('C', 'A,B,C,AB,AC');
 SELECT INSTR('MySQL Studies', 'SQL');
 ```
 
-![Screen Shot 2022-04-04 at 10.22.09 AM.png](String_Fun%208b055/Screen_Shot_2022-04-04_at_10.22.09_AM.png)
+![Screen_Shot_2022-04-04_at_10 22 09_AM](https://user-images.githubusercontent.com/54128055/161659581-7f222a49-b47e-43c4-905d-01cf74e7e30f.png)
 
 - LOCATE(부분 문자열, 기준 문자열)
     - INSTR과 기능 동일, 매개변수 순서만 다름
@@ -95,7 +95,7 @@ SELECT INSTR('MySQL Studies', 'SQL');
 SELECT LOCATE('SQL', 'MySQL Studies');
 ```
 
-![Screen Shot 2022-04-04 at 10.22.36 AM.png](String_Fun%208b055/Screen_Shot_2022-04-04_at_10.22.36_AM.png)
+![Screen_Shot_2022-04-04_at_10 22 36_AM](https://user-images.githubusercontent.com/54128055/161659587-4fd4c390-3d0d-42aa-a10a-e3e77c034c1c.png)
 
 - ASCII
 
@@ -110,7 +110,7 @@ SELECT ASCII('A')
      , CAST(CHAR(97) as CHAR(1));
 ```
 
-![Screen Shot 2022-04-04 at 9.42.09 AM.png](String_Fun%208b055/Screen_Shot_2022-04-04_at_9.42.09_AM.png)
+![Screen_Shot_2022-04-04_at_9 42 09_AM](https://user-images.githubusercontent.com/54128055/161659537-e110fc6e-0d38-47ff-b701-01b752a89d3c.png)
 
 - INSERT(문자열1, n1, n2, 문자열2)
     - 문자열1 내에서 n1 번째 문자부터 n2 번째 문자까지 삭제 후 새로운 문자열2 추가
@@ -119,7 +119,7 @@ SELECT ASCII('A')
 SELECT INSERT('Oracle query', 1, 6, 'MySQL');
 ```
 
-![Screen Shot 2022-04-04 at 11.01.29 AM.png](String_Fun%208b055/Screen_Shot_2022-04-04_at_11.01.29_AM.png)
+![Screen_Shot_2022-04-04_at_11 01 29_AM](https://user-images.githubusercontent.com/54128055/161659594-8bb9d30c-c2b5-4936-b208-a56d38e2d73b.png)
 
 - LEFT(문자열, n)
     - 왼쪽을 기준으로 문자열을 n 번째 문자까지만 반환
@@ -128,7 +128,7 @@ SELECT INSERT('Oracle query', 1, 6, 'MySQL');
 SELECT LEFT('MySQL Studies', 5);
 ```
 
-![Screen Shot 2022-04-04 at 11.06.57 AM.png](String_Fun%208b055/Screen_Shot_2022-04-04_at_11.06.57_AM.png)
+![Screen_Shot_2022-04-04_at_11 06 57_AM](https://user-images.githubusercontent.com/54128055/161659598-14b79c60-a116-4a11-946f-b98d34274bb8.png)
 
 - RIGHT(문자열, n)
     - 오른쪽을 기준으로 문자열을 n 번째 문자까지만 반환
@@ -137,7 +137,7 @@ SELECT LEFT('MySQL Studies', 5);
 SELECT RIGHT('MySQL Studies', 7);
 ```
 
-![Screen Shot 2022-04-04 at 11.08.10 AM.png](String_Fun%208b055/Screen_Shot_2022-04-04_at_11.08.10_AM.png)
+![Screen_Shot_2022-04-04_at_11 08 10_AM](https://user-images.githubusercontent.com/54128055/161659605-1cb1c280-4eab-474f-800b-28a35ffd9270.png)
 
 - UPPER(문자열), UCASE(문자열)
     - 문자열내에 소문자를 대문자로 반환
@@ -146,7 +146,7 @@ SELECT RIGHT('MySQL Studies', 7);
 SELECT UCASE('mysql');
 ```
 
-![Screen Shot 2022-04-05 at 8.34.59 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_8.34.59_AM.png)
+![Screen_Shot_2022-04-05_at_8 34 59_AM](https://user-images.githubusercontent.com/54128055/161659609-1331eeba-3805-483e-bcfc-aa39aae10dbd.png)
 
 - LOWER(문자열), LCASE(문자열)
     - 문자열내에 대문자를 소문자로 반환
@@ -155,7 +155,7 @@ SELECT UCASE('mysql');
 SELECT LCASE('MYSQL');
 ```
 
-![Screen Shot 2022-04-05 at 8.36.23 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_8.36.23_AM.png)
+![Screen_Shot_2022-04-05_at_8 36 23_AM](https://user-images.githubusercontent.com/54128055/161659613-3f512054-2dbf-4c4f-9e89-f9c670103fad.png)
 
 - LPAD(문자열1, n, 문자열2)
     - 문자열2를 (n - 문자열1) 만큼 왼쪽에 채워 반환
@@ -165,7 +165,7 @@ SELECT LCASE('MYSQL');
 SELECT LPAD('SQL', 5, '*')
 ```
 
-![Screen Shot 2022-04-05 at 8.41.16 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_8.41.16_AM.png)
+![Screen_Shot_2022-04-05_at_8 41 16_AM](https://user-images.githubusercontent.com/54128055/161659620-744c85bf-6570-4f47-ad88-6f567397185a.png)
 
 - RPAD(문자열1, n, 문자열2)
     - 문자열2를 (n - 문자열1) 만큼 오른쪽애 채워 반환
@@ -174,7 +174,7 @@ SELECT LPAD('SQL', 5, '*')
 SELECT RPAD('SQL', 5, '*')
 ```
 
-![Screen Shot 2022-04-05 at 8.50.45 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_8.50.45_AM.png)
+![Screen_Shot_2022-04-05_at_8 50 45_AM](https://user-images.githubusercontent.com/54128055/161659624-ed497560-914c-4284-8a25-7c843642ac65.png))
 
 - TRIM(문자열), TRIM(방향 [rmstr] FROM 문자열)
     - 문자열의 앞뒤 공백을 제거하여 반환
@@ -190,19 +190,19 @@ SELECT RPAD('SQL', 5, '*')
 SELECT TRIM('       MySQL       ');
 ```
 
-![Screen Shot 2022-04-05 at 8.58.24 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_8.58.24_AM.png)
+![Screen_Shot_2022-04-05_at_8 58 24_AM](https://user-images.githubusercontent.com/54128055/161659630-0bee2249-50ab-4489-9b01-efa5de206434.png)
 
 ```sql
 SELECT TRIM(LEADING FROM '       MySQL       ');
 ```
 
-![Screen Shot 2022-04-05 at 9.07.40 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_9.07.40_AM.png)
+![Screen_Shot_2022-04-05_at_9 07 40_AM](https://user-images.githubusercontent.com/54128055/161659636-37d461c0-f758-416b-9c8f-cedfe221878e.png)
 
 ```sql
 SELECT TRIM(LEADING '*' FROM '*****MySQL*****');
 ```
 
-![Screen Shot 2022-04-05 at 9.08.51 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_9.08.51_AM.png)
+![Screen_Shot_2022-04-05_at_9 08 51_AM](https://user-images.githubusercontent.com/54128055/161659641-11d93776-cc79-4fec-9778-40a783806ea2.png)
 
 - LTRIM(문자열)
     - 문자열의 왼쪽 공백을 제거하여 반환
@@ -211,7 +211,7 @@ SELECT TRIM(LEADING '*' FROM '*****MySQL*****');
 SELECT LTRIM('       MySQL       ');
 ```
 
-![Screen Shot 2022-04-05 at 9.10.15 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_9.10.15_AM.png)
+![Screen_Shot_2022-04-05_at_9 10 15_AM](https://user-images.githubusercontent.com/54128055/161659648-2cb9a0df-401e-43f6-9956-2f03ef526e04.png)
 
 - RTRIM(문자열)
     - 문자열의 오른쪽 공백을 제거하여 반환
@@ -220,7 +220,7 @@ SELECT LTRIM('       MySQL       ');
 SELECT RTRIM('       MySQL       ');
 ```
 
-![Screen Shot 2022-04-05 at 9.10.56 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_9.10.56_AM.png)
+![Screen_Shot_2022-04-05_at_9 10 56_AM](https://user-images.githubusercontent.com/54128055/161659654-a1a7f1a0-d2b4-4502-9a5e-456d6403ffb7.png)
 
 - REPLACE(문자열, str1, str2)
     - 문자열내에서 str1을 찾아 str2로 대체하여 반환
@@ -230,13 +230,13 @@ SELECT RTRIM('       MySQL       ');
 SELECT REPLACE('Oracle query', 'Oracle', 'MySQL')
 ```
 
-![Screen Shot 2022-04-05 at 9.22.51 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_9.22.51_AM.png)
+![Screen_Shot_2022-04-05_at_9 22 51_AM](https://user-images.githubusercontent.com/54128055/161659660-ad31ba7b-36ee-450f-a3a7-6a84bd0a837e.png)
 
 ```sql
 SELECT REPLACE('  My S Q L  ', ' ', '');
 ```
 
-![Screen Shot 2022-04-05 at 9.25.22 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_9.25.22_AM.png)
+![Screen_Shot_2022-04-05_at_9 25 22_AM](https://user-images.githubusercontent.com/54128055/161659664-0c1ba197-8e50-4fec-af02-a4a881327533.png)
 
 - REPEAT(문자열, n)
     - 문자열을 n 번 만큼 반복하여 반환
@@ -245,7 +245,7 @@ SELECT REPLACE('  My S Q L  ', ' ', '');
 SELECT REPEAT('SQL', 5)
 ```
 
-![Screen Shot 2022-04-05 at 9.29.50 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_9.29.50_AM.png)
+![Screen_Shot_2022-04-05_at_9 29 50_AM](https://user-images.githubusercontent.com/54128055/161659667-f6c21022-f2fa-406a-a775-9fe3785c9b8e.png)
 
 - REVERSE(문자열)
     - 문자열의 순서를 거꾸로 뒤집어 반환
@@ -254,7 +254,7 @@ SELECT REPEAT('SQL', 5)
 SELECT REVERSE('MySQL');
 ```
 
-![Screen Shot 2022-04-05 at 9.31.21 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_9.31.21_AM.png)
+![Screen_Shot_2022-04-05_at_9 31 21_AM](https://user-images.githubusercontent.com/54128055/161659672-ff088e97-f38f-47d4-a05d-d68355b013a1.png)
 
 - SPACE(n)
     - n 길이 만큼의 공백을 반환
@@ -263,7 +263,7 @@ SELECT REVERSE('MySQL');
 SELECT CONCAT('MySQL', SPACE(10), 'query');
 ```
 
-![Screen Shot 2022-04-05 at 9.33.03 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_9.33.03_AM.png)
+![Screen_Shot_2022-04-05_at_9 33 03_AM](https://user-images.githubusercontent.com/54128055/161659677-975b1204-50a9-40b4-8966-a37570fe771e.png)
 
 - SUBSTR(문자열, n1, n2), SUBSTRING(문자열, n1, n2), MID(문자열, n1, n2)
     - 문자열의 n1의 위치에서 시작해 n2 길이 만큼 잘라낸 결과를 반환
@@ -275,7 +275,7 @@ SELECT CONCAT('MySQL', SPACE(10), 'query');
 SELECT SUBSTR('ABCDEFG', 3, 2);
 ```
 
-![Screen Shot 2022-04-05 at 9.46.19 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_9.46.19_AM.png)
+![Screen_Shot_2022-04-05_at_9 46 19_AM](https://user-images.githubusercontent.com/54128055/161659684-4bffe7a2-49b4-4022-bb5c-691700ea0446.png)
 
 - SUBSTRING_INDEX(문자열, str, n)
     - 문자열을 str(구분자) 기준으로 나눈 후 n(구분자 index) 번째 str 부터 등장하는 문자는 제거하고 반환
@@ -287,13 +287,13 @@ SELECT SUBSTR('ABCDEFG', 3, 2);
 SELECT SUBSTRING_INDEX('MySQL,ORACLE,MSSQL', ',', 2);
 ```
 
-![Screen Shot 2022-04-05 at 10.02.00 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_10.02.00_AM.png)
+![Screen_Shot_2022-04-05_at_10 02 00_AM](https://user-images.githubusercontent.com/54128055/161659688-f793ef66-39f2-4062-b776-258e22e80e79.png)
 
 ```sql
 SELECT SUBSTRING_INDEX('MySQL,ORACLE,MSSQL', ',', -1);
 ```
 
-![Screen Shot 2022-04-05 at 10.07.09 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_10.07.09_AM.png)
+![Screen_Shot_2022-04-05_at_10 07 09_AM](https://user-images.githubusercontent.com/54128055/161659693-a3259d4e-b322-4994-b33d-d12aec784828.png)
 
 - REGEXP_REPLACE(문자열, 정규 표현식, str)
     - 정규식을 통해 영문, 한글, 숫자, 특수문자를 제거
@@ -304,25 +304,25 @@ SELECT SUBSTRING_INDEX('MySQL,ORACLE,MSSQL', ',', -1);
 SELECT REGEXP_REPLACE('ab12cd한글(테스트)','[a-z]','');
 ```
 
-![Screen Shot 2022-04-05 at 10.15.35 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_10.15.35_AM.png)
+![Screen_Shot_2022-04-05_at_10 15 35_AM](https://user-images.githubusercontent.com/54128055/161659708-0d9ca2c3-0845-4a4e-8767-088806f12ec6.png)
 
 ```sql
 -- 한글 제거
 SELECT REGEXP_REPLACE('ab12cd한글(테스트)','[가-힣]','');
 ```
 
-![Screen Shot 2022-04-05 at 10.14.18 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_10.14.18_AM.png)
+![Screen_Shot_2022-04-05_at_10 14 18_AM](https://user-images.githubusercontent.com/54128055/161659698-b0c61413-c906-4092-a0ec-d5e210c89750.png)
 
 ```sql
 -- 숫자 제거
 SELECT REGEXP_REPLACE('ab12cd한글(테스트)','[0-9]','');
 ```
 
-![Screen Shot 2022-04-05 at 10.15.23 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_10.15.23_AM.png)
+![Screen_Shot_2022-04-05_at_10 15 23_AM](https://user-images.githubusercontent.com/54128055/161659703-db479a17-500e-4740-91a4-a74fe35a532c.png)
 
 ```sql
 -- 특수문자 '()' 와 한글 제거
 SELECT REGEXP_REPLACE('ab12cd한글(테스트)','[가-힣()]','');
 ```
 
-![Screen Shot 2022-04-05 at 10.16.42 AM.png](String_Fun%208b055/Screen_Shot_2022-04-05_at_10.16.42_AM.png)
+![Screen_Shot_2022-04-05_at_10 16 42_AM](https://user-images.githubusercontent.com/54128055/161659713-eb2c1570-4b36-4cbd-9368-4cfb69d02140.png)
