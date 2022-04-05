@@ -174,7 +174,7 @@ SELECT LPAD('SQL', 5, '*')
 SELECT RPAD('SQL', 5, '*')
 ```
 
-![Screen_Shot_2022-04-05_at_8 50 45_AM](https://user-images.githubusercontent.com/54128055/161659624-ed497560-914c-4284-8a25-7c843642ac65.png))
+![Screen_Shot_2022-04-05_at_8 50 45_AM](https://user-images.githubusercontent.com/54128055/161659624-ed497560-914c-4284-8a25-7c843642ac65.png)
 <br/><br/><br/>
 - TRIM(문자열), TRIM(방향 [rmstr] FROM 문자열)
     - 문자열의 앞뒤 공백을 제거하여 반환
