@@ -240,3 +240,35 @@ SELECT QUARTER('2022-01-01 12:10:23')
 ![Screen_Shot_2022-04-11_at_11 19 34_AM](https://user-images.githubusercontent.com/54128055/162738920-bac8e997-37e1-4a0d-9400-f19c7bfa5e89.png)
 
 ### 날짜 / 시간 계산 함수
+
+
+- ADDTIME(expr, expr2)
+    - TIME 혹은 DATETIME 형식의 expr 에 TIME 형식의 expr2 를 더하여 반환
+
+```sql
+SELECT ADDTIME('2022-01-01 12:00:00', '3:00:00');
+```
+
+![Screen Shot 2022-04-12 at 10.19.47 AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ba397fae-90af-4b40-b743-366e9f22d73c/Screen_Shot_2022-04-12_at_10.19.47_AM.png)
+
+- SUBTIME(expr, expr2)
+    - TIME 혹은 DATETIME 형식의 expr 에 TIME 형식의 expr2 를 빼고 반환
+
+```sql
+SELECT SUBTIME('2022-01-01 12:00:00', '3:00:00');
+```
+
+![Screen Shot 2022-04-12 at 11.50.10 AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/47c17a14-bd1e-4e07-867e-c5c7b9dea694/Screen_Shot_2022-04-12_at_11.50.10_AM.png)
+
+
+- DATE_ADD(date, INTERVAL expr)
+    - date 에 expr 값을 더하여 반환하는 함수
+    - date 는 DATETIME 혹은 DATE 의 형식
+    - expr 은 월, 일, 시간, 분, 초 등의 계산될 값의 형시
+    - expr 인자에 ‘-’ 부여시 뺄셈도 가능
+
+```sql
+SELECT DATE_ADD('2022-01-01 12:00:00', INTERVAL 1 DAY)
+		 , DATE_ADD('2022-01-01 12:00:00', INTERVAL -1 DAY);
+```
+
