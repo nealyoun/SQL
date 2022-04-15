@@ -2,7 +2,7 @@
 
 URL: [https://solvesql.com/problems/group-by/](https://solvesql.com/problems/group-by/)
 
-![Screen Shot 2022-04-15 at 10.40.19 AM.png](Query%20over%20621be/Screen_Shot_2022-04-15_at_10.40.19_AM.png)
+![Screen_Shot_2022-04-15_at_10 40 19_AM](https://user-images.githubusercontent.com/54128055/163584887-d6255d5e-7a78-494e-8102-2c78cc60ef13.png)
 
 ### Deviation, 편차
 
@@ -14,7 +14,7 @@ SELECT *
 FROM points;
 ```
 
-![Screen Shot 2022-04-15 at 10.44.03 AM.png](Query%20over%20621be/Screen_Shot_2022-04-15_at_10.44.03_AM.png)
+![Screen_Shot_2022-04-15_at_10 44 03_AM](https://user-images.githubusercontent.com/54128055/163584892-161dfdc1-95e5-4b3b-aa04-a5723eef6425.png)
 
 - 모든 x 값에 대하여 x 의 평균값과의 편차를 보고자 할때 over() 함수를 쓰면 유용
 - quartet I의 x 평균은 9
@@ -31,7 +31,7 @@ SELECT
 FROM points
 ```
 
-![Screen Shot 2022-04-15 at 10.52.07 AM.png](Query%20over%20621be/Screen_Shot_2022-04-15_at_10.52.07_AM.png)
+![Screen_Shot_2022-04-15_at_10 52 07_AM](https://user-images.githubusercontent.com/54128055/163584893-694046a6-7626-4b01-b968-8f551a63dbd5.png)
 
 ### Variance, 분산
 
@@ -47,7 +47,7 @@ FROM (
       );
 ```
 
-![Screen Shot 2022-04-15 at 11.02.16 AM.png](Query%20over%20621be/Screen_Shot_2022-04-15_at_11.02.16_AM.png)
+![Screen_Shot_2022-04-15_at_11 02 16_AM](https://user-images.githubusercontent.com/54128055/163584897-dc6c2b22-3c52-4c22-88c5-14780813f2c3.png)
 
 - quartet I 내에 있는 x 값들에 대한 분산을 구한다면
 
@@ -62,7 +62,7 @@ FROM (
       WHERE quartet = 'I');
 ```
 
-![Screen Shot 2022-04-15 at 11.22.07 AM.png](Query%20over%20621be/Screen_Shot_2022-04-15_at_11.22.07_AM.png)
+![Screen_Shot_2022-04-15_at_11 22 07_AM](https://user-images.githubusercontent.com/54128055/163584898-73d93a5e-87b1-4b3e-834f-7cd74fa10dc9.png)
 
 - 위에서 구한 분산이 built-in-function 인 variance()를 사용했을 때와 값이 같음을 확인
 
@@ -73,4 +73,4 @@ FROM points
 WHERE quartet = 'I';
 ```
 
-![Screen Shot 2022-04-15 at 11.23.00 AM.png](Query%20over%20621be/Screen_Shot_2022-04-15_at_11.23.00_AM.png)
+![Screen_Shot_2022-04-15_at_11 23 00_AM](https://user-images.githubusercontent.com/54128055/163584899-bfc7396c-46f7-4bf8-bdd4-b91b8a14edf6.png)
